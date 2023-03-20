@@ -1,0 +1,8 @@
+hdf5 = yes
+proj = yes
+zfp = no
+SW4ROOT=/app/sw4/optimize_mp
+HDF5ROOT=/usr/lib/x86_64-linux-gnu/hdf5/mpich
+FC = gfortran
+CXX = mpicxx
+EXTRA_LINK_FLAGS =-L/usr/lib64 -llapack -lblas -lgfortran
